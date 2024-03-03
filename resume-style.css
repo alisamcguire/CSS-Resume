@@ -1,0 +1,101 @@
+/* Set default font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(240, 229, 215);
+    border: 5px solid black;
+    padding: 60px;
+
+  }
+  
+  /* Center the heading */
+  #header h1 {
+    text-align: center;
+    margin-top: 20px;
+
+  }
+
+  #header h4 {
+    text-align: center;
+  }
+
+
+
+  /* Style for each horizontal line */
+  hr {
+    width: 50%;
+    margin: 0;
+}
+
+  /* Style the contact information */
+  h4 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 5px;
+  }
+  
+
+  /* Style the links */
+  a {
+    color: #0072C6;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the education section */
+  h2:first-of-type {
+    margin-top: 40px;
+  }
+  
+  h4:first-of-type {
+    margin-top: 10px;
+  }
+  
+  p:first-of-type {
+    margin-top: 0px;
+  }
+  
+  /* Style the experience section */
+  h2:nth-of-type(2) {
+    margin-top: 40px;
+  }
+  
+  p strong {
+    font-weight: bold;
+  }
+  
+  p i {
+    font-style: italic;
+  }
+  
+  ul {
+    list-style:circle;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Style the activities section */
+  h2:nth-of-type(3) {
+    margin-top: 40px;
+  }
+  
+  /* Style the skills section */
+  h2:nth-of-type(4) {
+    margin-top: 40px;
+  }
+  
+  /* Style the awards section */
+  h2:last-of-type {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+
+
